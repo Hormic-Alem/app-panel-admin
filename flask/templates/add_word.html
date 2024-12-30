@@ -1,0 +1,34 @@
+<!-- templates/add_word.html -->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agregar Palabra</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="my-4">Agregar Nueva Palabra</h1>
+        <form method="POST">
+            <div class="form-group">
+                <label for="word">Palabra</label>
+                <input type="text" id="word" name="word" class="form-control" required>
+            </div>
+            <div class="form-group">
+                <label for="translation">Traducción</label>
+                <input type="text" id="translation" name="translation" class="form-control" required>
+            </div>
+            <div class="form-group">
+                <label for="level">Nivel</label>
+                <input type="text" id="level" name="level" class="form-control" required>
+            </div>
+            <div class="form-group">
+                <label for="topic">Tema</label>
+                <input type="text" id="topic" name="topic" class="form-control" required>
+            </div>
+            <button type="submit" class="btn btn-success">Agregar Palabra</button>
+        </form>
+    </div>
+</body>
+</html>
